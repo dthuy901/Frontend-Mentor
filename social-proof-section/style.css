@@ -16,6 +16,7 @@ li{
     padding: 90px 15px;
     background: url(imgs/bg-pattern-top-desktop.svg) no-repeat left top, url(imgs/bg-pattern-bottom-desktop.svg) no-repeat right bottom;
     background-size: 361px, 923px;
+    min-height: 100vh;
 }
 .intro{
     display: flex;
