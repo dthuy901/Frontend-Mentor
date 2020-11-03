@@ -13,7 +13,7 @@ li{
 .container{
     max-width: 1140px;
     margin: 0 auto;
-    padding: 90px 15px;
+    padding: 90px 25px;
     background: url(imgs/bg-pattern-top-desktop.svg) no-repeat left top, url(imgs/bg-pattern-bottom-desktop.svg) no-repeat right bottom;
     background-size: 361px, 923px;
     min-height: 100vh;
@@ -162,11 +162,12 @@ li{
         transform: translateY(0);
     }
 }
-@media screen and (max-width: 799px){
+@media screen and (max-width: 819px){
     .intro > ul > li {
         height: auto;
         line-height: 30px;
         text-align: center;
+        padding: 9px 32px;
     }
     .intro > ul > li > span {
         display: block;
@@ -180,6 +181,10 @@ li{
     .customer {
         margin: 10px auto;
         width: 100%;
+    }
+    .intro > div > h2,
+    .intro > div > p {
+        text-align: center;
     }
 }
 @media screen and (max-width: 320px){
